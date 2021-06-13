@@ -1,0 +1,27 @@
+Desafio do Time
+
+A proposta é desenvolver uma aplicação demo para que o time possa vivenciar e discutir os principais problemas que encontramos durante o desenvolvimento de software. O desafio é composto por fazes, onde cada fase tem requisitos não funcionais específicos.
+ 
+O escopo do projeto foi uma aplicação de GERENCIAMENTO DE PEDIDOS que possuí os seguintes casos de uso:
+ 
+1 - Importação de Clientes
+2 - Importação de Produtos
+3 - Importação de Pedidos
+ 
+Onde:
+Um PEDIDO pode possuir somente um CLIENTE associado a ele.
+Um PEDIDO pode possuir um ou mais ITEMS DE PEDIDO.
+Não é possível importar PEDIDOS sem ITEMS DE PEDIDO.
+Um ITEM DE PEDIDO pode ter somente um PRODUTO.
+Durante a importação de pedidos, caso o cliente associado ao pedido não exista, o cliente deve ser importado.
+Durante a importação dos items do pedido, caso o produto associado ao item do pedido não exista, o produto deve ser cadastrado.
+ 
+ETAPAS
+ 
+As etapas tem como objetivo introduzir os conceitos de forma gradual para que possamos direcionar as discussões de forma mais objetiva.
+ 
+Etapa 1 - Implementar os três casos de uso e as regras de negócio em uma web api monolítica (com somente um deploy). As camadas internas da web api são livres para que possarmos validar e discutir os prós e contras das diferentes abordagens.
+Etapa 2 - Separar o projeto em três microservices (Clientes, Produtos e Pedidos) e adaptar a Web Api para que  consiga lhe dar com esse cenário distribuído garantido a unidade do caso de uso.
+ 
+Datas
+Etapa 1 - Data limite de 31/01/2021

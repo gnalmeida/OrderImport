@@ -1,0 +1,24 @@
+{
+  "code": "XXXX",
+  "street": "string",
+  "number": "string",
+  "complement": "string",
+  "neighborhood": "string",
+  "city": "string",
+  "state": "string",
+  "country": "string",
+  "postalCode": "string",
+  "customer": {
+    "name": "gabriel",
+    "cpf": "31710429836"
+  },
+  "orderProducts": [
+    {
+      "sku": "xxxxx",
+      "name": "produto teste",
+      "value": 10,
+      "description": "desc produto",
+      "quantity": 1
+    }
+  ]
+}
